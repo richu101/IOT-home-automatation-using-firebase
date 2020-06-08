@@ -2,10 +2,10 @@
 #include "FirebaseESP8266.h"
 #include <ESP8266WiFi.h>
 
-#define FIREBASE_HOST "iiot-5f66d.firebaseio.com/User%201" //Without http:// or https:// schemes
-#define FIREBASE_AUTH "iaxxK0KD4kq0SJRnbjIjWBwRBvXNlB0kEuhnblfK"
-#define WIFI_SSID "tech rick iot"
-#define WIFI_PASSWORD "techrick"
+#define FIREBASE_HOST "YOUR_FIREBASE_PROJECT.firebaseio.com" //Without http:// or https:// schemes
+#define FIREBASE_AUTH "YOUR_FIREBASE_DATABASE_SECRET"
+#define WIFI_SSID "YOUR_WIFI_AP"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 //Define FirebaseESP8266 data object
 FirebaseData firebaseData;
